@@ -68,6 +68,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			// Added fontFamily to reference the new --font-sans variable
+			fontFamily: {
+				sans: ["var(--font-sans)"],
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
